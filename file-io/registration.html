@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form Validation</title>
+</head>
+<body>
+
+	<h1>Registration Form</h1>
+
+	<form id="form1" name="form1" action="RegistrationAction.php" method="post" novalidate
+	enctype="application/x-www-form-urlencoded">
+
+	<fieldset>
+		<legend>Basic Information:</legend>
+
+		<lable for= "fname">First Name:</lable>
+		<input type="text" name="firstname" id="fname">
+
+		<br><br>
+
+		<lable for= "lname">Last Name:</lable>
+		<input type="text" name="lastname" id="lname">
+
+		<br><br>
+
+		<label>Gender:</label>
+		<input type="radio" name="gender" id="male" value="male"><label for="male">Male</label>
+		<input type="radio" name="gender" id="female" value="female"><label for="female">Female</label>
+		<input type="radio" name="gender" id="other" value="other"><label for="other">Other</label>
+
+		<br><br>
+
+		<label for="Date of Birth">Date of Birth:</label>
+	    <input type="date" name="dob" value="" > 
+
+	    <br><br>
+
+	    <label for="religion">Religion:</label>
+	    <select name="religion" id="religion">
+	    	<option value="islam">Islam</option>
+	    	<option value="hindu">Hindu</option>
+	    	<option value="buddha">Buddha</option>
+	    	<option value="christian">Christian</option>
+
+	    	</select>
+    </fieldset>
+
+
+
+	<fieldset>
+		<legend>Contact Information</legend>
+
+		<label for="present address">Present Address:</label>
+		<input type="text" name="present_address" id="present address">
+
+		<br><br>
+
+        <label for="permanent address">Permanent Address:</label>
+		<input type="text" name="permanent_address" id="permanent address">
+
+		<br><br>
+
+		<label for="tel">Phone:</label>
+		<input type="text" name="tel" id="tel">
+
+		<br><br>
+
+		<label for="email">Email:</label>
+		<input type="text" name="email" id="email">
+
+		<br><br>
+
+		<label for="personal web">Personal Website Link:</label>
+		<input type="url" name="personal_web" id="personal web">
+
+	</select>
+
+	</fieldset>
+
+	<fieldset>
+		<legend>Credentials</legend>
+
+		<label for="username">Username:</label>
+		<input type="text" name="uname" id="username">
+
+		<br><br>
+
+		<label for="password">Password:</label>
+		<input type="password" name="password" id="password">
+
+		<br><br>
+
+		<label for="confirm">Confirm Password:</label>
+		<input type="password" name="confirm" id="confirm">
+
+	</select>
+
+	<br><br>
+
+	<input type="submit" name="submit" value="Submit">
+
+	</fieldset>
+</form>
+
+</body>
+</html>

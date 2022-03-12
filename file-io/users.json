@@ -1,0 +1,16 @@
+[
+    {
+        "firstName": "Zerin ",
+        "lastName": "Tasnim",
+        "gender": "female",
+        "dateOfBirth": "2000-09-22",
+        "religion": null,
+        "permanentAdress": "Dhaka",
+        "presentAddress": "Dhaka",
+        "email": "zerin.tasnim022@gmail.com",
+        "phone": "01785612952",
+        "personalWebLink": "",
+        "uname": "zerintasnim",
+        "pass": "1234"
+    }
+]
